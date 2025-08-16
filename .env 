@@ -1,0 +1,4 @@
+SIMTHINK_LOGIC_MODULE=simthink_logic
+SIMTHINK_AGENTS_ROOT=/Users/jairzeapaez/Documents/Proyectos/10x/simthink
+DATABASE_URL=postgresql://usuario:clave@host:puerto/basededatos
+export PYTHONPATH="/Users/jairzeapaez/Documents/Proyectos/10x/simthink"

@@ -1,0 +1,62 @@
+# SO / editor
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.code-workspace
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+env/
+.venv*/
+pip-wheel-metadata/
+__pypackages__/
+.cache/
+dist/
+build/
+site/
+
+# Testing / tooling
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+.tox/
+.nox/
+.mypy_cache/
+.pytype/
+.ruff_cache/
+.pyre/
+.ipynb_checkpoints/
+
+# Docker (local)
+docker-compose.override.yml
+
+# Logs
+logs/
+*.log
+
+# Env & secretos
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.crt
+secrets.json
+secrets/
+**/secrets/*.json
+
+# Datos locales / RAG / tmp
+data/
+datasets/
+uploads/
+artifacts/
+storage/
+tmp/
+cache/
+**/rag/**
