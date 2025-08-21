@@ -1,0 +1,8 @@
+services:
+  api-gateway:
+    build:
+      context: .
+    container_name: api-gateway
+    ports:
+      - "8100:8100"
+    restart: unless-stopped
